@@ -10,10 +10,10 @@ terraform {
 }*/
 terraform {
   cloud {
-    organization = "sami123123123"
+    organization = "georgemcit"
 
     workspaces {
-      name = "cloud_armor_factory_mcit_8thFeb"
+      name = "cloud_armor_factory"
     }
   }
 }
