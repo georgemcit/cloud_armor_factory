@@ -2,7 +2,7 @@ locals {
   project2 = "my-project-name1" # Google Cloud Platform Project ID
 }
 
-resource "google_service_account" "account" {
+resource "google_service_account" "account2" {
   account_id   = "gcf-sa"
   display_name = "Test Service Account"
 }
